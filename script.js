@@ -32,7 +32,7 @@ generateCalendar = (month,year) => {
     month_picker.innerHTML=month_names[month]
     calender_header_year.innerHTML=year
 
-    let first_day=new Date(month,year,1)
+    let first_day=new Date(year,month,1,0,0,0,0)
     for(let i=0; i<=days_of_month[month] + first_day.getDay() -1;i++){
         let day=document.createElement('div')
         if(i >= first_day.getDay()){

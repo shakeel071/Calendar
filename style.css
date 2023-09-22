@@ -326,9 +326,6 @@ html,body{
         cursor: pointer;
         animation: to-top 1s forwards;
     }
-   
-    
-    
     .month-list{
         position: absolute;
         width: 100%;
